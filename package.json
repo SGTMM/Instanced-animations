@@ -1,0 +1,22 @@
+{
+    "name": "game-boilerplate",
+    "version": "1.0.0",
+    "description": "",
+    "source": "src/index.html",
+    "scripts": {
+        "start": "parcel serve -p 5000",
+        "build": "parcel build src/index.html"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@parcel/transformer-glsl": "^2.10.3",
+        "parcel": "^2.8.3"
+    },
+    "dependencies": {
+        "gh-pages": "^6.1.1",
+        "parcel-reporter-static-files-copy": "^1.5.0",
+        "postprocessing": "^6.34.3",
+        "three": "^0.165.0"
+    }
+}
